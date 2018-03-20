@@ -1,0 +1,148 @@
+body,div,li,ul,ol{
+	margin: 0;
+	padding: 0;
+}
+div{
+	position: relative;
+}
+.Header{
+	display:block;
+	height: 50px;
+	width: 100%;
+	background-color:#ccc3c314;
+	border-bottom: 1px solid #e8e7e7;
+}
+.gmail,.images{
+	position: absolute;
+	bottom: 4px;
+	color: black;
+	text-decoration: none;
+}
+.gmail{
+	right: 200px; 
+}
+.images{
+	right: 140px;
+}
+.image{
+	background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+	background-position: -132px -38px;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	right: 95px;
+	bottom: -3px;
+	opacity: 0.5;	
+}
+
+.image:hover{
+	opacity: 1;
+}
+.fotter_up,.fotter_down{
+	position: absolute;
+	height: 50px;
+	width: 100%;
+	background-color: #e4e4e4;
+}
+.fotter_down{
+	bottom: 0;
+	border-top: 1px solid #b7b0b0;
+}
+.fotter_up{
+	bottom: 50px;
+}
+span{
+	line-height: 50px;
+	margin-left: 15px; 
+	color: #9a8d8d;
+}
+.Left,.Right{
+	display: inline-block;
+	line-height: 50px;
+	text-decoration: none;
+	color: #9a8d8d;
+}
+.Left{
+	float: left;
+	margin-left: 15px; 
+}
+.Right{
+	float: right;
+	margin-right: 20px;
+}
+.Left:hover,.Right:hover,.gmail:hover,.images:hover{
+	text-decoration: underline;
+}
+.Left,.Right,.gmail,.images,span{
+	font-family: arial,sans-serif;
+	font-size: 14px;
+}
+.sign_up{
+	position: absolute;
+	right: 10px;
+	top: 18px;
+	height: 30px;
+	background-color:#005ea0;
+	border: 0;
+	margin: 0;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius: 4px;
+	color: white;
+	font-size: 14px;
+	font-family: arial,sans-serif;
+	opacity: 0.7;
+	font-weight: 600;
+}
+.sign_up:hover{
+	opacity: 1;
+}
+.Google_Ani{
+	/*position: absolute;*/
+	background-image: url(https://www.google.com/logos/doodles/2016/34th-anniversary-of-similan-islands-national-park-4857236808531968-hp2x.gif);
+	background-size: 580px 250px;
+	width: 580px;
+	height: 250px;
+	margin-left: 410px;
+	margin-top: 20px;
+}
+.search{
+	width: 600px;
+	height:40px ;
+	margin-left: 400px;
+	margin-top: 20px; 
+	display: inline-block;
+	border:1px solid #d8d8d8;
+}
+.search:hover{
+	-webkit-box-shadow: -2px 2px 2px gray , 1px 0 2px gray;
+	-moz-box-shadow: -2px 2px 2px gray,1px 0 2px gray;
+	box-shadow: -2px 2px 2px gray,1px 0 2px gray;
+	transition: all 0.1s ease-in-out;
+}
+.searchbutton,.extrabutton{
+	position: relative;
+	display: inline-block;
+	height: 40px;
+	background-color: rgb(242, 242, 242);
+	border: 1px solid #d8d8d8;
+	margin-top: 20px;
+	left: 550px;
+	opacity: 0.6;
+}
+.Text{
+	position: relative;
+	font-size: 14px;
+	line-height: 40px;
+	left: 400px;
+}
+.Text > a{
+	text-decoration: none; 
+}
+.Text > a:hover{
+	text-decoration: underline;
+}
+.searchbutton:hover,.extrabutton:hover{
+	opacity: 1;
+	border: 2px solid #d8d8d8;
+}
